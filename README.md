@@ -9,6 +9,8 @@ This project created **December 2019.**
 
 Explore data related to **Bike Share System** for three cities in the **USA**  *Chicago*, *New York City*, and *Washington* based on **python script.**
 
+***The main object of this project to implement what we learn in the course and how to implement data science technique using python to analysis the data***
+
 
 
 ### Files used
