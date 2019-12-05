@@ -78,13 +78,13 @@ def ask_user():
 
     while True:
 
-        user_selecttion_month = input("Which month do you want to select? (All, January , February , March , April , May or June) :  ")
+        month_selection_message = input("Which month do you want to select? (All, January , February , March , April , May or June) :  ")
 
         print("")
 
-        if user_selecttion_month.lower() in correct_month_choice:
+        if month_selection_message.lower() in correct_month_choice:
 
-            month = user_selecttion_month
+            month = month_selection_message
 
             break
 
