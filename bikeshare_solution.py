@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 #Explore data related to Bike Share System for three cities in the USA Chicago, New York City, and Washington based on python script.
 
 
+=======
+>>>>>>> refactoring
 import time
 
 import pandas as pd
@@ -50,9 +53,15 @@ def ask_user():
 
     while True:
 
+<<<<<<< HEAD
         ask_user_for_city = "Which city would you like to explore data for (chicago, new york city, washington)?:  "
 
         user_selecttion_city = input(ask_user_for_city)
+=======
+        city_selection_message = "Which city would you like to explore data for (chicago, new york city, washington)?:  "
+
+        user_selecttion_city = input(city_selection_message)
+>>>>>>> refactoring
 
         print("")
 
@@ -82,6 +91,7 @@ def ask_user():
 
     while True:
 
+<<<<<<< HEAD
         user_selecttion_month = input("Which month do you want to select? (All, January , February , March , April , May or June) :  ")
 
         print("")
@@ -89,6 +99,15 @@ def ask_user():
         if user_selecttion_month.lower() in correct_month_choice:
 
             month = user_selecttion_month
+=======
+        month_selection_message = input("Which month do you want to select? (All, January , February , March , April , May or June) :  ")
+
+        print("")
+
+        if month_selection_message.lower() in correct_month_choice:
+
+            month = month_selection_message
+>>>>>>> refactoring
 
             break
 
@@ -108,6 +127,7 @@ def ask_user():
 
     while True:
 
+<<<<<<< HEAD
         selected_day = input("Which day do you want to select? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
 
         print("")
@@ -115,6 +135,15 @@ def ask_user():
         if selected_day.lower() in correct_day:
 
             day = selected_day
+=======
+        days_selection_message = input("Which day do you want to select? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+
+        print("")
+
+        if days_selection_message.lower() in correct_day:
+
+            day = days_selection_message
+>>>>>>> refactoring
 
             break
 
