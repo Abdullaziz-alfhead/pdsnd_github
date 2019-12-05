@@ -104,13 +104,13 @@ def ask_user():
 
     while True:
 
-        selected_day = input("Which day do you want to select? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+        days_selection_message = input("Which day do you want to select? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
 
         print("")
 
-        if selected_day.lower() in correct_day:
+        if days_selection_message.lower() in correct_day:
 
-            day = selected_day
+            day = days_selection_message
 
             break
 
